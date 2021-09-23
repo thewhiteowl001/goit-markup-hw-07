@@ -27,8 +27,8 @@
 }
 
 .section-hero {
-    background-image: url(../images/herobg.jpg), -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4)));
-    background-image: url(../images/herobg.jpg), linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+    background-color: rgba(47, 48, 58, 0.8);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/herobg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
