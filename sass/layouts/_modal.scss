@@ -24,7 +24,7 @@
     border-radius: 4px;
 
     &-form__title {
-        margin-top: 40px;
+        margin-bottom: 12px;
         font-size: 20px;
         font-weight: bold;
         line-height: 1.15;
@@ -63,7 +63,6 @@
 
 .contact-form {
     width: 448px;
-    margin-top: 30px;
     line-height: 1.15;
     letter-spacing: 0.03em;
 
@@ -72,7 +71,8 @@
         width: 100%;
         height: 40px;
         padding-left: 42px;
-        margin-bottom: 28px;
+        margin-bottom: 10px;
+        // margin-top: 4px;
         border: 1px solid rgba(33, 33, 33, 0.2);
         border-radius: 4px;
         -webkit-transition: var(--animation);
@@ -120,6 +120,7 @@
     }
     
     &__field-name {
+        margin-bottom: 4px;
         font-size: 12px;
         line-height: 1.166;
         letter-spacing: 0.01em;
